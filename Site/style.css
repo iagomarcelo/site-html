@@ -1,0 +1,42 @@
+body{
+    background: linear-gradient(to right, #B00071, #630040);
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    margin: 0 auto;
+    box-shadow: 1px 7px 7px #330021a2;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 17px;
+}
+
+header.titulo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;    
+    
+}
+
+header.lateral{
+    display: flex;
+    float: right;
+
+}
+
+section {
+    color: #5c9656;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: -1px 1px 7px #3d0128;
+    margin-bottom: 17px;
+    }
+
+footer{
+    text-align: center;
+    font-size: 28px;
+    
+}
